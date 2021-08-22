@@ -47,7 +47,7 @@ def alphaNum_noSymbols(length):
 
 #pulls a random word from the word file
 def randWord():
-    with open("./PiWord/4-letter-words.csv") as file:
+    with open("./4-letter-words.csv") as file:
         reader = csv.reader(file)
         temp = random.choice(list(reader))
 
